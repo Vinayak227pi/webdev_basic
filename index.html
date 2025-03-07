@@ -7,6 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Application Form</h1>
+    <div>
+        <form action="post">
+            <label for="username">
+                <input type="text" id="username" name="username" placeholder="Enter Your Username" autofocus>
+            </label>
+        </form>
+    </div>
+    
+    <div>
+        <input type="radio" name="Gender" id="male" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="Gender" id="female" value="female">
+        <label for="female">Female</label>
+    </div>   
+
+    <div>
+        <select name="teams">
+            <option value="Ferrari">Ferrari</option>
+            <option value="Merc">Merc</option>
+            <option value="Red Bull">Red Bull</option>
+            <option value="Kick">Kick</option>
+
+        </select>
+    </div>
     
 
     <script src="script.js"></script>
