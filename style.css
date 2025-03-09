@@ -1,3 +1,8 @@
+:root{
+    --color:  rgba(240, 232, 232, 0.685);
+    --seccolor: rgb(174, 174, 222);
+}
+
 *{
     margin: 0px;
     padding: opx;
@@ -5,12 +10,12 @@
 
 div{
     border-radius: 10px;
-    border: 2px solid  rgba(240, 232, 232, 0.685);
+    border: 2px solid  var(--color);
     margin: auto;
     margin-top: 20px;
     width:390px;
     height:690px;
-    background-color: rgba(240, 232, 232, 0.685);
+    background-color: var(--color);
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.65);
 }
 
