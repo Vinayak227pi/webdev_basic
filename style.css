@@ -1,7 +1,77 @@
-.red{
-    background-color: red;
+*{
+    margin: 0px;
+    padding: opx;
 }
 
-#seconddiv{
-    background-color: yellow;
+div{
+    border-radius: 10px;
+    border: 2px solid  rgba(240, 232, 232, 0.685);
+    margin: auto;
+    margin-top: 20px;
+    width:390px;
+    height:690px;
+    background-color: rgba(240, 232, 232, 0.685);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.65);
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+#txt1{
+    justify-content: left;
+    color: rgba(148, 158, 153, 0.966);
+}
+
+#nat1{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 3px;
+    margin-left: 20px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    min-width: 60px;
+}
+
+#nat2{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 3px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    min-width: 60px;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.6);
+}
+
+h1{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+p{
+    color: rgba(88, 102, 105, 0.999);
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.but > button{
+    font-size: 23px;
+    color: rgba(30, 127, 131, 0.999);
+    padding: 8px;
+    border: 2px none;
+    border-radius: 20px;
+    min-width: 150px;
+    background-color: rgb(173, 280, 230);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.6);
 }
