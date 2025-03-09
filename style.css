@@ -1,6 +1,7 @@
 :root{
     --color:  rgba(240, 232, 232, 0.685);
     --seccolor: rgb(174, 174, 222);
+    --defpad: 10px;
 }
 
 *{
@@ -22,7 +23,7 @@ div{
 span{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: var(--defpad);
 
 }
 
@@ -34,7 +35,7 @@ span{
 #nat1{
     display: inline;
     text-align: center;
-    padding: 10px;
+    padding: var(--defpad);
     margin: 5px;
     margin-top: 3px;
     margin-left: 20px;
@@ -46,7 +47,7 @@ span{
 #nat2{
     display: inline;
     text-align: center;
-    padding: 10px;
+    padding: var(--defpad);
     margin: 5px;
     margin-top: 3px;
     border: 2px solid lightgray;
