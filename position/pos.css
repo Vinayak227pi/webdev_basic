@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header{
+    background-color: blue;
+    width: 100vw;
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    
+}
+.side{
+    background-color: lightblue;
+    height: 100vh;
+    position: fixed;
+    margin-top: 20px;
+}
+
+.bod{
+    margin-top: 20px;
+    margin-left: 40px;
+}
